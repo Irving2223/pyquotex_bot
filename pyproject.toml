@@ -6,7 +6,7 @@ authors = [
     { name = "cleiton", email = "cleiton.leonel@gmail.com"}]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "quotexapi" }]
+packages = [{ include = "pyquotex" }]
 requires-python = ">=3.12,<4.0"
 
 dependencies = [

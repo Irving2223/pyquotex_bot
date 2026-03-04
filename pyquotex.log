@@ -1,0 +1,159 @@
+2026-02-03 12:01:07,717 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-03 12:01:10,910 - __main__ - INFO - Establishing connection...
+2026-02-03 12:01:10,917 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-03 12:01:21,015 - pyquotex.ws.client - ERROR - Handshake status 403 Forbidden -+-+- {'date': 'Tue, 03 Feb 2026 16:01:17 GMT', 'content-type': 'text/html; charset=UTF-8', 'content-length': '7198', 'connection': 'close', 'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cf-mitigated': 'challenge', 'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cross-origin-embedder-policy': 'require-corp', 'cross-origin-opener-policy': 'same-origin', 'cross-origin-resource-policy': 'same-origin', 'origin-agent-cluster': '?1', 'permissions-policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'referrer-policy': 'same-origin', 'server-timing': 'chlray;desc="9c8325646bdd2631"', 'x-content-type-options': 'nosniff', 'x-frame-options': 'SAMEORIGIN', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'expires': 'Thu, 01 Jan 1970 00:00:01 GMT', 'set-cookie': '__cf_bm=XMM9xTF9a1MQhbOASTr25qW9nratUr2Xgp1ZrZl_1pM-1770134477-1.0.1.1-B_f4pCBTEpr3yH_OFzAGQe1A6U6dDUYU7tCdPxr.GjD8ZEuikyy_L2PxcmH3fqOqySQNnakqab.KNc0vWn4rRNlGlAiczAGddec2WJHfbcw; path=/; expires=Tue, 03-Feb-26 16:31:17 GMT; domain=.qxbroker.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '9c8325646bdd2631-MIA'} -+-+- b'<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challe'
+2026-02-03 12:01:21,066 - websocket - INFO - Handshake status 403 Forbidden -+-+- {'date': 'Tue, 03 Feb 2026 16:01:17 GMT', 'content-type': 'text/html; charset=UTF-8', 'content-length': '7198', 'connection': 'close', 'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cf-mitigated': 'challenge', 'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cross-origin-embedder-policy': 'require-corp', 'cross-origin-opener-policy': 'same-origin', 'cross-origin-resource-policy': 'same-origin', 'origin-agent-cluster': '?1', 'permissions-policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'referrer-policy': 'same-origin', 'server-timing': 'chlray;desc="9c8325646bdd2631"', 'x-content-type-options': 'nosniff', 'x-frame-options': 'SAMEORIGIN', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'expires': 'Thu, 01 Jan 1970 00:00:01 GMT', 'set-cookie': '__cf_bm=XMM9xTF9a1MQhbOASTr25qW9nratUr2Xgp1ZrZl_1pM-1770134477-1.0.1.1-B_f4pCBTEpr3yH_OFzAGQe1A6U6dDUYU7tCdPxr.GjD8ZEuikyy_L2PxcmH3fqOqySQNnakqab.KNc0vWn4rRNlGlAiczAGddec2WJHfbcw; path=/; expires=Tue, 03-Feb-26 16:31:17 GMT; domain=.qxbroker.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '9c8325646bdd2631-MIA'} -+-+- b'<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challe' - reconnect
+2026-02-03 12:01:21,918 - websocket - DEBUG - Calling dispatcher reconnect [4 frames in stack]
+2026-02-03 12:01:22,003 - websocket - INFO - reconnect() - retrying in 5 seconds [5 frames in stack]
+2026-02-03 12:01:26,222 - websocket - INFO - Websocket connected
+2026-02-03 12:01:26,252 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-03 12:01:27,389 - websocket - INFO - Websocket connected
+2026-02-03 12:01:27,390 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-03 12:01:28,802 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-03 12:01:28,805 - __main__ - INFO - Running connection test.
+2026-02-03 12:01:30,818 - __main__ - INFO - Connection test successful.
+2026-02-03 12:01:32,869 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-03 12:05:58,455 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-03 12:06:01,530 - __main__ - INFO - Establishing connection...
+2026-02-03 12:06:01,531 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-03 12:06:05,239 - websocket - INFO - Websocket connected
+2026-02-03 12:06:05,318 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-03 12:06:07,893 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-03 12:06:07,894 - __main__ - INFO - Getting account balance.
+2026-02-03 12:06:07,896 - __main__ - INFO - Current balance: 10000.0
+2026-02-03 12:06:09,959 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-03 12:40:29,376 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-03 12:40:32,405 - __main__ - INFO - Establishing connection...
+2026-02-03 12:40:32,405 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-03 12:40:35,087 - websocket - INFO - Websocket connected
+2026-02-03 12:40:35,167 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-03 12:40:37,714 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-03 12:40:37,715 - __main__ - INFO - Running connection test.
+2026-02-03 12:40:39,716 - __main__ - INFO - Connection test successful.
+2026-02-03 12:40:41,912 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-03 12:40:51,717 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-03 12:40:54,746 - __main__ - INFO - Establishing connection...
+2026-02-03 12:40:54,747 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-03 12:40:59,564 - websocket - INFO - Websocket connected
+2026-02-03 12:40:59,786 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-03 12:41:02,343 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-03 12:41:02,349 - __main__ - INFO - Running connection test.
+2026-02-03 12:41:04,359 - __main__ - INFO - Connection test successful.
+2026-02-03 12:41:06,555 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-03 12:41:27,297 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-03 12:41:30,317 - __main__ - INFO - Establishing connection...
+2026-02-03 12:41:30,317 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-03 12:41:36,752 - websocket - INFO - Websocket connected
+2026-02-03 12:41:36,826 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-03 12:41:39,376 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-03 12:41:39,376 - __main__ - INFO - Getting user profile.
+2026-02-03 12:41:39,867 - __main__ - INFO - Profile retrieved successfully.
+2026-02-03 12:41:42,084 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-03 12:41:56,825 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-03 12:41:59,856 - __main__ - INFO - Establishing connection...
+2026-02-03 12:41:59,857 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-03 12:42:05,466 - websocket - INFO - Websocket connected
+2026-02-03 12:42:05,544 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-03 12:42:08,081 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-03 12:42:08,081 - __main__ - INFO - Getting user profile.
+2026-02-03 12:42:08,487 - __main__ - INFO - Profile retrieved successfully.
+2026-02-03 12:42:10,686 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-03 16:35:04,530 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-03 17:02:24,171 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-03 17:02:27,238 - __main__ - INFO - Establishing connection...
+2026-02-03 17:02:27,238 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-03 17:02:30,143 - websocket - INFO - Websocket connected
+2026-02-03 17:02:30,253 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-03 17:02:32,815 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-03 17:02:32,816 - __main__ - INFO - Running connection test.
+2026-02-03 17:02:34,821 - __main__ - INFO - Connection test successful.
+2026-02-03 17:02:37,020 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-03 17:49:43,826 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-05 17:20:29,101 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-05 17:20:32,138 - __main__ - INFO - Establishing connection...
+2026-02-05 17:20:32,139 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-05 17:20:37,723 - websocket - INFO - Websocket connected
+2026-02-05 17:20:37,800 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-05 17:20:38,064 - pyquotex.ws.client - INFO - Disconnection event triggered by the platform, causing automatic reconnection.
+2026-02-05 17:20:38,065 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-05 17:20:41,833 - websocket - INFO - Websocket connected
+2026-02-05 17:20:41,834 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-05 17:20:47,125 - __main__ - INFO - Connected successfully: Websocket Token Rejected.
+2026-02-05 17:20:47,176 - __main__ - INFO - Running connection test.
+2026-02-05 17:20:49,224 - __main__ - INFO - Connection test successful.
+2026-02-05 17:20:51,451 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-05 18:30:24,071 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-05 18:30:27,109 - __main__ - INFO - Establishing connection...
+2026-02-05 18:30:27,109 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-05 18:30:29,780 - websocket - INFO - Websocket connected
+2026-02-05 18:30:29,921 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-05 18:30:32,512 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-05 18:30:32,521 - __main__ - INFO - Running connection test.
+2026-02-05 18:30:34,536 - __main__ - INFO - Connection test successful.
+2026-02-05 18:30:36,717 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-18 18:35:37,083 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-18 18:35:40,107 - __main__ - INFO - Establishing connection...
+2026-02-18 18:35:40,108 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-18 18:35:46,196 - websocket - INFO - Websocket connected
+2026-02-18 18:35:46,366 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-18 18:35:46,742 - pyquotex.ws.client - INFO - Disconnection event triggered by the platform, causing automatic reconnection.
+2026-02-18 18:35:46,744 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-18 18:35:50,197 - websocket - INFO - Websocket connected
+2026-02-18 18:35:50,198 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-18 18:36:33,537 - __main__ - INFO - Connected successfully: Websocket Token Rejected.
+2026-02-18 18:36:33,567 - __main__ - INFO - Running connection test.
+2026-02-18 18:36:35,615 - __main__ - INFO - Connection test successful.
+2026-02-18 18:36:37,767 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-19 16:00:06,721 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-19 16:00:09,756 - __main__ - INFO - Establishing connection...
+2026-02-19 16:00:09,756 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-19 16:00:12,384 - websocket - INFO - Websocket connected
+2026-02-19 16:00:12,446 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-19 16:00:12,746 - pyquotex.ws.client - INFO - Disconnection event triggered by the platform, causing automatic reconnection.
+2026-02-19 16:00:12,747 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-19 16:00:16,723 - websocket - INFO - Websocket connected
+2026-02-19 16:00:16,724 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-19 16:01:01,194 - __main__ - INFO - Connected successfully: Websocket Token Rejected.
+2026-02-19 16:01:01,253 - __main__ - INFO - Running connection test.
+2026-02-19 16:01:03,357 - __main__ - INFO - Connection test successful.
+2026-02-19 16:01:04,764 - websocket - DEBUG - Sending ping
+2026-02-19 16:01:05,617 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-19 17:03:33,013 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-19 17:03:36,037 - __main__ - INFO - Establishing connection...
+2026-02-19 17:03:36,038 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-19 17:03:44,590 - pyquotex.ws.client - ERROR - Handshake status 403 Forbidden -+-+- {'date': 'Thu, 19 Feb 2026 21:03:35 GMT', 'content-type': 'text/html; charset=UTF-8', 'content-length': '7177', 'connection': 'close', 'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cf-mitigated': 'challenge', 'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cross-origin-embedder-policy': 'require-corp', 'cross-origin-opener-policy': 'same-origin', 'cross-origin-resource-policy': 'same-origin', 'origin-agent-cluster': '?1', 'permissions-policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'referrer-policy': 'same-origin', 'server-timing': 'chlray;desc="9d08b6360c6bb18d"', 'x-content-type-options': 'nosniff', 'x-frame-options': 'SAMEORIGIN', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'expires': 'Thu, 01 Jan 1970 00:00:01 GMT', 'set-cookie': '__cf_bm=RyUAwzc492VR_lm_r3j3WGjSP7ootSe4WfF.oFg2ekw-1771535015-1.0.1.1-nf1NV2XHy7wjrOPSUCvi2bWboOUnRv2dAbEOFcWYF1429u6HBCSouJ8kem1Bqm.tYQip0Sjq2BRB7Lw7oW4T0itr.lZOEw7M0ZQB5k9YsiM; path=/; expires=Thu, 19-Feb-26 21:33:35 GMT; domain=.qxbroker.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '9d08b6360c6bb18d-MIA'} -+-+- b'<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challe'
+2026-02-19 17:03:44,657 - websocket - INFO - Handshake status 403 Forbidden -+-+- {'date': 'Thu, 19 Feb 2026 21:03:35 GMT', 'content-type': 'text/html; charset=UTF-8', 'content-length': '7177', 'connection': 'close', 'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cf-mitigated': 'challenge', 'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cross-origin-embedder-policy': 'require-corp', 'cross-origin-opener-policy': 'same-origin', 'cross-origin-resource-policy': 'same-origin', 'origin-agent-cluster': '?1', 'permissions-policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'referrer-policy': 'same-origin', 'server-timing': 'chlray;desc="9d08b6360c6bb18d"', 'x-content-type-options': 'nosniff', 'x-frame-options': 'SAMEORIGIN', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'expires': 'Thu, 01 Jan 1970 00:00:01 GMT', 'set-cookie': '__cf_bm=RyUAwzc492VR_lm_r3j3WGjSP7ootSe4WfF.oFg2ekw-1771535015-1.0.1.1-nf1NV2XHy7wjrOPSUCvi2bWboOUnRv2dAbEOFcWYF1429u6HBCSouJ8kem1Bqm.tYQip0Sjq2BRB7Lw7oW4T0itr.lZOEw7M0ZQB5k9YsiM; path=/; expires=Thu, 19-Feb-26 21:33:35 GMT; domain=.qxbroker.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '9d08b6360c6bb18d-MIA'} -+-+- b'<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challe' - reconnect
+2026-02-19 17:03:45,024 - websocket - DEBUG - Calling dispatcher reconnect [4 frames in stack]
+2026-02-19 17:03:45,026 - websocket - INFO - reconnect() - retrying in 5 seconds [5 frames in stack]
+2026-02-19 17:03:50,311 - websocket - INFO - Websocket connected
+2026-02-19 17:03:50,382 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-19 17:03:50,495 - websocket - INFO - Websocket connected
+2026-02-19 17:03:50,546 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-19 17:03:52,902 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-19 17:03:52,903 - __main__ - INFO - Running connection test.
+2026-02-19 17:03:54,910 - __main__ - INFO - Connection test successful.
+2026-02-19 17:03:57,145 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-19 17:14:58,056 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-19 17:15:01,075 - __main__ - INFO - Establishing connection...
+2026-02-19 17:15:01,076 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-19 17:15:05,960 - websocket - INFO - Websocket connected
+2026-02-19 17:15:06,056 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-19 17:15:08,599 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-19 17:15:08,600 - __main__ - INFO - Running connection test.
+2026-02-19 17:15:10,602 - __main__ - INFO - Connection test successful.
+2026-02-19 17:15:12,799 - pyquotex.ws.client - INFO - Websocket connection closed.
+2026-02-19 17:16:35,860 - __main__ - INFO - Quotex client initialized successfully.
+2026-02-19 17:16:38,880 - __main__ - INFO - Establishing connection...
+2026-02-19 17:16:38,881 - __main__ - INFO - Attempting to connect to Quotex API...
+2026-02-19 17:16:45,586 - pyquotex.ws.client - ERROR - Handshake status 403 Forbidden -+-+- {'date': 'Thu, 19 Feb 2026 21:16:38 GMT', 'content-type': 'text/html; charset=UTF-8', 'content-length': '7198', 'connection': 'close', 'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cf-mitigated': 'challenge', 'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cross-origin-embedder-policy': 'require-corp', 'cross-origin-opener-policy': 'same-origin', 'cross-origin-resource-policy': 'same-origin', 'origin-agent-cluster': '?1', 'permissions-policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'referrer-policy': 'same-origin', 'server-timing': 'chlray;desc="9d08c957af90323d"', 'x-content-type-options': 'nosniff', 'x-frame-options': 'SAMEORIGIN', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'expires': 'Thu, 01 Jan 1970 00:00:01 GMT', 'set-cookie': '__cf_bm=9FtKVMmRoo7ykPLxam6HYjpWQPmZoIi7vvSoTptettQ-1771535798-1.0.1.1-j9.0o2Fq9xOv6UiXD.0BglVSTSZEvuQfrO2QAraJwEZNgyz_HS_SxApV3ZIWcf4pa_MtZb1rCao8qpmFBN1yTSXhQOGDwj_VhBA5RUDpRK8; path=/; expires=Thu, 19-Feb-26 21:46:38 GMT; domain=.qxbroker.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '9d08c957af90323d-MIA'} -+-+- b'<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challe'
+2026-02-19 17:16:45,871 - websocket - INFO - Handshake status 403 Forbidden -+-+- {'date': 'Thu, 19 Feb 2026 21:16:38 GMT', 'content-type': 'text/html; charset=UTF-8', 'content-length': '7198', 'connection': 'close', 'accept-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cf-mitigated': 'challenge', 'critical-ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'cross-origin-embedder-policy': 'require-corp', 'cross-origin-opener-policy': 'same-origin', 'cross-origin-resource-policy': 'same-origin', 'origin-agent-cluster': '?1', 'permissions-policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'referrer-policy': 'same-origin', 'server-timing': 'chlray;desc="9d08c957af90323d"', 'x-content-type-options': 'nosniff', 'x-frame-options': 'SAMEORIGIN', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0', 'expires': 'Thu, 01 Jan 1970 00:00:01 GMT', 'set-cookie': '__cf_bm=9FtKVMmRoo7ykPLxam6HYjpWQPmZoIi7vvSoTptettQ-1771535798-1.0.1.1-j9.0o2Fq9xOv6UiXD.0BglVSTSZEvuQfrO2QAraJwEZNgyz_HS_SxApV3ZIWcf4pa_MtZb1rCao8qpmFBN1yTSXhQOGDwj_VhBA5RUDpRK8; path=/; expires=Thu, 19-Feb-26 21:46:38 GMT; domain=.qxbroker.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '9d08c957af90323d-MIA'} -+-+- b'<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challe' - reconnect
+2026-02-19 17:16:46,301 - websocket - DEBUG - Calling dispatcher reconnect [4 frames in stack]
+2026-02-19 17:16:46,305 - websocket - INFO - reconnect() - retrying in 5 seconds [5 frames in stack]
+2026-02-19 17:16:52,800 - websocket - INFO - Websocket connected
+2026-02-19 17:16:52,857 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-19 17:16:52,878 - websocket - INFO - Websocket connected
+2026-02-19 17:16:52,879 - pyquotex.ws.client - INFO - Websocket client connected.
+2026-02-19 17:16:55,899 - __main__ - INFO - Connected successfully: Websocket connected successfully!!!
+2026-02-19 17:16:55,902 - __main__ - INFO - Running connection test.
+2026-02-19 17:16:57,907 - __main__ - INFO - Connection test successful.
+2026-02-19 17:17:00,625 - pyquotex.ws.client - INFO - Websocket connection closed.
